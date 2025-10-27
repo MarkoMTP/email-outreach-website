@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --electric-blue: #0066FF;
+  --lime-green: #00FF87;
+  --dark-gray: #1A1A1A;
+  --light-gray: #F5F5F5;
+  --medium-gray: #666666;
+  --white: #FFFFFF;
+  --gradient-primary: linear-gradient(135deg, #0066FF 0%, #00D4FF 100%);
+  --gradient-accent: linear-gradient(135deg, #00FF87 0%, #00D4FF 100%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--white);
+  color: var(--dark-gray);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

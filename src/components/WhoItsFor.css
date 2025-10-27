@@ -1,0 +1,96 @@
+.who-its-for {
+  padding: 120px 24px;
+  background: var(--white);
+}
+
+.who-its-for-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.audiences-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  margin-top: 60px;
+}
+
+.audience-card {
+  background: linear-gradient(135deg, #F8FEFF 0%, #F0F9FF 100%);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.audience-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient-primary);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.audience-card:hover::before {
+  transform: scaleX(1);
+}
+
+.audience-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--electric-blue);
+  box-shadow: 0 12px 40px rgba(0, 102, 255, 0.15);
+}
+
+.audience-icon {
+  font-size: 64px;
+  margin-bottom: 24px;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.audience-card:hover .audience-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.audience-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--dark-gray);
+  margin-bottom: 16px;
+}
+
+.audience-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--medium-gray);
+}
+
+@media (max-width: 768px) {
+  .who-its-for {
+    padding: 80px 20px;
+  }
+
+  .audiences-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .audience-card {
+    padding: 32px;
+  }
+
+  .audience-icon {
+    font-size: 56px;
+  }
+
+  .audience-title {
+    font-size: 22px;
+  }
+}
