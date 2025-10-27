@@ -1,9 +1,12 @@
-import './FinalCTA.css'
+import "./FinalCTA.css";
 
 const FinalCTA = () => {
   const handleCTAClick = () => {
-    window.open('https://calendly.com', '_blank')
-  }
+    window.open(
+      "https://calendly.com/contact-altafrequenzamarketing/email-outreach-system-meeting",
+      "_blank"
+    );
+  };
 
   return (
     <section className="final-cta">
@@ -11,7 +14,8 @@ const FinalCTA = () => {
         <div className="cta-content">
           <h2 className="cta-title">Automate your client acquisition.</h2>
           <p className="cta-subtitle">
-            Stop spending hours on manual outreach. Let the system find, contact, and organize thousands of leads for you — automatically.
+            Stop spending hours on manual outreach. Let the system find,
+            contact, and organize thousands of leads for you — automatically.
           </p>
           <button className="cta-button-large" onClick={handleCTAClick}>
             Book a free demo
@@ -28,7 +32,7 @@ const FinalCTA = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default FinalCTA
+export default FinalCTA;

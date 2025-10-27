@@ -1,4 +1,4 @@
-import './Pricing.css'
+import "./Pricing.css";
 
 const Pricing = () => {
   return (
@@ -37,7 +37,7 @@ const Pricing = () => {
               <div className="price-label">Monthly Management</div>
               <div className="price-amount">
                 <span className="currency">€</span>
-                <span className="amount">500</span>
+                <span className="amount">400</span>
                 <span className="period">/month</span>
               </div>
             </div>
@@ -58,13 +58,14 @@ const Pricing = () => {
         <div className="pricing-note">
           <div className="note-icon">🔒</div>
           <p>
-            <strong>Important:</strong> All data, accounts, and domains remain your property.
-            You have full ownership and control of your infrastructure.
+            <strong>Important:</strong> All data, accounts, and domains remain
+            your property. You have full ownership and control of your
+            infrastructure.
           </p>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Pricing
+export default Pricing;
