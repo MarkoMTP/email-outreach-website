@@ -51,12 +51,10 @@ const WhyItWorks = () => {
         </div>
 
         <div className="quote-section">
-          <div className="quote-mark">"</div>
           <p className="quote-text">
             We first used this system to fill our agency's pipeline. Now we use
             it to fill yours.
           </p>
-          <div className="quote-mark">"</div>
         </div>
       </div>
     </section>
