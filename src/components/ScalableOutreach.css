@@ -1,0 +1,58 @@
+.scalable-outreach {
+  background: #f9fafb;
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 16px;
+  margin: 80px auto;
+  max-width: 900px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scalable-outreach:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.so-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.so-icon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+.so-heading {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+.so-subheading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+.so-text {
+  font-size: 1.05rem;
+  color: #374151;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.so-text strong {
+  color: #111827;
+}
+
+.so-subline {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

@@ -32,12 +32,11 @@ const Pricing = () => {
           </div>
 
           <div className="pricing-card monthly featured">
-            <div className="featured-badge">Most Popular</div>
             <div className="price-header">
               <div className="price-label">Monthly Management</div>
               <div className="price-amount">
                 <span className="currency">€</span>
-                <span className="amount">400</span>
+                <span className="amount">500</span>
                 <span className="period">/month</span>
               </div>
             </div>

@@ -18,7 +18,7 @@ const FinalCTA = () => {
             contact, and organize thousands of leads for you — automatically.
           </p>
           <button className="cta-button-large" onClick={handleCTAClick}>
-            Book a free demo
+            Book a call
           </button>
           <p className="cta-note">
             15-minute consultation · No commitment required

@@ -1,36 +1,40 @@
-import './HowItWorks.css'
+import "./HowItWorks.css";
 
 const HowItWorks = () => {
   const steps = [
     {
-      number: '01',
-      title: 'AI Lead Engine',
-      subtitle: 'Back-End Automation',
-      description: 'The system analyzes your target niche and automatically scrapes verified contacts (names, roles, company data, emails). All leads are cleaned, verified, and enriched by AI before being sent to Instantly.',
-      color: '#0066FF'
+      number: "01",
+      title: "AI Lead Engine",
+      subtitle: "Back-End Automation",
+      description:
+        "The system analyzes your target niche and automatically scrapes verified contacts (names, roles, company data, emails). All leads are cleaned, verified, and enriched by AI before being sent to Instantly.",
+      color: "#0066FF",
     },
     {
-      number: '02',
-      title: 'Campaign Setup in Instantly',
-      subtitle: 'Smart Outreach',
-      description: 'Leads are automatically uploaded into Instantly. Personalized email sequences are launched automatically. Each email is written to sound natural and tailored — no spam blasts.',
-      color: '#00D4FF'
+      number: "02",
+      title: "Campaign Setup in Instantly",
+      subtitle: "Smart Outreach",
+      description:
+        "Your leads are uploaded and nurtured automatically. Personalized sequences go out on schedule — written to sound natural, not robotic. No mass blasts. Just real conversations that convert.",
+      color: "#00D4FF",
     },
     {
-      number: '03',
-      title: 'AI Inbox Management',
-      subtitle: 'The Smart Brain',
-      description: 'Instantly tracks every open, click, and reply. Replies are automatically categorized by AI as positive, neutral, or uninterested. The system prioritizes hot leads for you — no need to dig through your inbox.',
-      color: '#00FF87'
+      number: "03",
+      title: "AI Inbox Management",
+      subtitle: "The Smart Brain",
+      description:
+        "Instantly tracks every open, click, and reply. AI automatically categorizes responses as positive, neutral, or uninterested — so you only see high-intent leads ready to talk.",
+      color: "#00FF87",
     },
     {
-      number: '04',
-      title: 'You Get the Results',
-      subtitle: 'Close More Deals',
-      description: 'You only see what matters: interested prospects ready to talk. All messages are managed in a Gmail-like dashboard, where you can respond instantly or book a call in one click.',
-      color: '#7C3AED'
-    }
-  ]
+      number: "04",
+      title: "You Get the Results",
+      subtitle: "Close More Deals",
+      description:
+        "Everything appears in a clean, Gmail-style inbox. You can reply, follow up, or book a call in one click — without touching a spreadsheet or CRM.",
+      color: "#7C3AED",
+    },
+  ];
 
   return (
     <section className="how-it-works">
@@ -93,7 +97,7 @@ const HowItWorks = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HowItWorks
+export default HowItWorks;

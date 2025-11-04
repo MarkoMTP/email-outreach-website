@@ -1,0 +1,133 @@
+.interested-form {
+  background-color: #f9fafb;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  background: #fff;
+  border-radius: 16px;
+  padding: 50px 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  max-width: 800px;
+}
+
+.form-title {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form-subtitle {
+  font-size: 1.05rem;
+  color: #4b5563;
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full {
+  width: 100%;
+}
+
+label {
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+input,
+select,
+textarea {
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #111827;
+  background: #fff;
+  transition: all 0.2s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.form-button {
+  background-color: #2563eb;
+  color: white;
+  font-weight: 600;
+  padding: 14px 26px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.form-button:hover {
+  background-color: #1d4ed8;
+}
+
+@media (max-width: 640px) {
+  .form-container {
+    padding: 40px 24px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+}
+
+.form-success,
+.form-error {
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 14px 18px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.form-success {
+  background-color: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+.form-error {
+  background-color: #fef2f2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}

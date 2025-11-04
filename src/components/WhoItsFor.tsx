@@ -1,38 +1,44 @@
-import './WhoItsFor.css'
+import "./WhoItsFor.css";
 
 const WhoItsFor = () => {
   const audiences = [
     {
-      icon: '🎯',
-      title: 'B2B Agencies',
-      description: 'Who need consistent client flow without spending hours on manual outreach'
+      icon: "🎯",
+      title: "B2B Agencies",
+      description:
+        "Turn cold data into booked calls with a fully automated outreach system built to scale.",
     },
     {
-      icon: '📢',
-      title: 'Marketing Agencies',
-      description: 'Looking to scale lead generation for clients with proven automation'
+      icon: "📢",
+      title: "Marketing Agencies",
+      description:
+        "Generate a steady stream of qualified leads without wasting time on manual prospecting.",
     },
     {
-      icon: '💻',
-      title: 'SaaS Founders',
-      description: 'Who want demos without hiring expensive SDRs or building sales teams'
+      icon: "💻",
+      title: "SaaS Founders",
+      description:
+        "Book product demos on autopilot—no SDRs, no cold calling, just consistent pipeline.",
     },
     {
-      icon: '👔',
-      title: 'Recruiting Firms',
-      description: 'Tired of manual prospecting and want qualified candidates automatically'
+      icon: "👔",
+      title: "Recruiting Firms",
+      description:
+        "Fill your pipeline with verified decision-makers and automate first contact entirely.",
     },
     {
-      icon: '📊',
-      title: 'Consultants & Service Providers',
-      description: 'Who want qualified leads on autopilot to focus on delivery, not hunting'
+      icon: "📊",
+      title: "Consultants & Service Providers",
+      description:
+        "Focus on closing deals while the system finds and warms up your next clients for you.",
     },
     {
-      icon: '✨',
-      title: 'And Many Others',
-      description: 'Any B2B business that wants predictable, automated lead generation at scale'
-    }
-  ]
+      icon: "✨",
+      title: "And Many Others",
+      description:
+        "If you sell B2B and rely on calls or demos, this engine keeps your calendar full—automatically.",
+    },
+  ];
 
   return (
     <section className="who-its-for">
@@ -53,7 +59,7 @@ const WhoItsFor = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default WhoItsFor
+export default WhoItsFor;

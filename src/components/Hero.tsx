@@ -18,8 +18,8 @@ const Hero = () => {
         </div>
 
         <h1 className="hero-title">
-          Contact <span className="highlight">5,000+ qualified leads</span>{" "}
-          every month — automatically.
+          Never Chase Clients Again. Your Automated Email Engine Finds Them for
+          You.
         </h1>
 
         <p className="hero-subtitle">

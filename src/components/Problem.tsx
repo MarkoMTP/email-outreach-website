@@ -1,24 +1,24 @@
-import './Problem.css'
+import "./Problem.css";
 
 const Problem = () => {
   const problems = [
     {
-      icon: '⏰',
-      text: 'Endless time wasted searching for leads manually'
+      icon: "⏰",
+      text: "Endless time wasted searching for leads manually",
     },
     {
-      icon: '📉',
-      text: 'Low reply rates, emails going to spam'
+      icon: "📉",
+      text: "Low reply rates and deliverability issues.",
     },
     {
-      icon: '🔍',
-      text: 'No visibility on who replied or why'
+      icon: "🔍",
+      text: "No visibility on who replied or why",
     },
     {
-      icon: '📬',
-      text: 'A cluttered inbox with no organization'
-    }
-  ]
+      icon: "📬",
+      text: "A cluttered inbox with no organization",
+    },
+  ];
 
   return (
     <section className="problem">
@@ -37,13 +37,14 @@ const Problem = () => {
         <div className="problem-transition">
           <div className="transition-line"></div>
           <p className="transition-text">
-            We turned all of that into a single automated engine that runs on autopilot.
+            We turned all of that into a single automated engine that runs on
+            autopilot.
           </p>
           <div className="transition-line"></div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Problem
+export default Problem;
