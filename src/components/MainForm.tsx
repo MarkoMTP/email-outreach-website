@@ -1,8 +1,17 @@
-import React, { useState } from "react";
+import { useState } from "react";
+interface FormData {
+  name: string;
+  email: string;
+  company: string;
+  website: string;
+  goalClients: string;
+  budget: string;
+  message: string;
+}
 import "./MainForm.css";
 
 const MainForm = () => {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
     company: "",
@@ -12,18 +21,26 @@ const MainForm = () => {
     message: "",
   });
 
-  const [status, setStatus] = useState("idle"); // idle | sending | success | error
+  const [status, setStatus] = useState<
+    "idle" | "sending" | "success" | "error"
+  >("idle");
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
+    const { name, value } = e.target;
+    const key = name as keyof FormData;
+    setFormData({ ...formData, [key]: value });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus("sending");
 
     try {
-      const response = await fetch(process.env.REACT_APP_MAKE_API, {
+      const response = await fetch(import.meta.env.VITE_MAKE_API as string, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -150,7 +167,7 @@ const MainForm = () => {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              rows="4"
+              rows={4}
               placeholder="Briefly describe your services, clients, and goals..."
             />
           </div>
