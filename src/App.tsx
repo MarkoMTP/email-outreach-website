@@ -9,8 +9,8 @@ import Pricing from "./components/Pricing";
 import FAQ from "./components/FAQ";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
-import ScalableOutreach from "./components/ScalableOutreach";
-import MainForm from "./components/MainForm.jsx";
+import ScalableOutreach from "./components/ScalableOutreach.js";
+import MainForm from "./components/MainForm.js";
 import "./App.css";
 
 function App() {

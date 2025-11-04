@@ -23,14 +23,11 @@ const MainForm = () => {
     setStatus("sending");
 
     try {
-      const response = await fetch(
-        "https://hook.eu2.make.com/vrfy3njqxa9oft9qty7fmzv1ixudzi5o",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(formData),
-        }
-      );
+      const response = await fetch(process.env.REACT_APP_MAKE_API, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
       if (response.ok) {
         setStatus("success");
