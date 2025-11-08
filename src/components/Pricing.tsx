@@ -15,7 +15,7 @@ const Pricing = () => {
               <div className="price-label">One-Time Setup</div>
               <div className="price-amount">
                 <span className="currency">€</span>
-                <span className="amount">1,500</span>
+                <span className="amount">1,000</span>
               </div>
             </div>
 
