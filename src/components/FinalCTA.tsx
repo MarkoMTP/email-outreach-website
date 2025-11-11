@@ -21,7 +21,7 @@ const FinalCTA = () => {
             Book a call
           </button>
           <p className="cta-note">
-            15-minute consultation · No commitment required
+            15-minute consultation · Only 2 systems still available!
           </p>
         </div>
 

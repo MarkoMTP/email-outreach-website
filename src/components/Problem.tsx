@@ -33,15 +33,6 @@ const Problem = () => {
             </div>
           ))}
         </div>
-
-        <div className="problem-transition">
-          <div className="transition-line"></div>
-          <p className="transition-text">
-            We turned all of that into a single automated engine that runs on
-            autopilot.
-          </p>
-          <div className="transition-line"></div>
-        </div>
       </div>
     </section>
   );

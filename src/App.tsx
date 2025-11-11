@@ -9,25 +9,28 @@ import Pricing from "./components/Pricing";
 import FAQ from "./components/FAQ";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
-import ScalableOutreach from "./components/ScalableOutreach.js";
 import MainForm from "./components/MainForm.js";
 import "./App.css";
+import CompetitiveAdvantage from "./components/CompetitiveAdv.js";
+import ThreeComponents from "./components/Threecompontents.js";
+import ManualProspectingProblem from "./components/ManualProspectingProblem.js";
 
 function App() {
   return (
     <div className="app">
       <Hero />
       <Problem />
-      <HowItWorks />
+      <ManualProspectingProblem />
+      <ThreeComponents />
       <SmartInbox />
       <WhyItWorks />
       <WhoItsFor />
       <Story />
       <Pricing />
-      <ScalableOutreach />
+      <CompetitiveAdvantage></CompetitiveAdvantage>
       <FAQ />
-      <MainForm />
       <FinalCTA />
+      <MainForm />
       <Footer />
     </div>
   );

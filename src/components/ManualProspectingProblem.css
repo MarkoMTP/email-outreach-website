@@ -1,0 +1,166 @@
+.manual-prospecting-problem {
+  padding: 100px 24px;
+  background: var(--white);
+}
+
+.problem-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.problem-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--medium-gray);
+}
+
+.problem-intro p {
+  margin: 0;
+}
+
+.problem-intro strong {
+  color: var(--dark-gray);
+  font-weight: 600;
+}
+
+.hidden-cost {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe8b6 100%);
+  padding: 32px;
+  border-radius: 16px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin-bottom: 80px;
+  border-left: 4px solid #ff9800;
+}
+
+.cost-icon {
+  font-size: 48px;
+  flex-shrink: 0;
+}
+
+.cost-content {
+  flex: 1;
+}
+
+.cost-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark-gray);
+  margin-bottom: 8px;
+}
+
+.cost-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--medium-gray);
+  margin: 0;
+}
+
+.cost-text strong {
+  color: var(--dark-gray);
+  font-weight: 600;
+}
+
+.subsection-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--dark-gray);
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.subsection-intro {
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--medium-gray);
+  margin-bottom: 40px;
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+.reason-card {
+  background: linear-gradient(135deg, #f8feff 0%, #e0f2fe 100%);
+  padding: 32px;
+  border-radius: 16px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.reason-card:hover {
+  border-color: var(--electric-blue);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 102, 255, 0.1);
+}
+
+.reason-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--electric-blue);
+  margin-bottom: 16px;
+}
+
+.reason-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--medium-gray);
+  margin: 0;
+}
+
+.contrast-section {
+  background: var(--light-gray);
+  padding: 40px;
+  border-radius: 16px;
+  border-left: 4px solid var(--electric-blue);
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--medium-gray);
+}
+
+.contrast-section p {
+  margin: 0;
+}
+
+.contrast-section strong {
+  color: var(--dark-gray);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .manual-prospecting-problem {
+    padding: 80px 20px;
+  }
+
+  .problem-intro {
+    font-size: 16px;
+  }
+
+  .hidden-cost {
+    padding: 24px;
+    flex-direction: column;
+  }
+
+  .subsection-title {
+    font-size: 28px;
+  }
+
+  .reasons-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .contrast-section {
+    padding: 32px;
+    font-size: 16px;
+  }
+}
