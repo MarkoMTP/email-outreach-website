@@ -1,6 +1,5 @@
 import Hero from "./components/Hero";
 import Problem from "./components/Problem";
-import HowItWorks from "./components/HowItWorks";
 import SmartInbox from "./components/SmartInbox";
 import WhyItWorks from "./components/WhyItWorks";
 import WhoItsFor from "./components/WhoItsFor";
