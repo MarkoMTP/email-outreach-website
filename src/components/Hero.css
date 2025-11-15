@@ -1,3 +1,7 @@
+/* -------------------- */
+/* HERO SECTION STYLES  */
+/* -------------------- */
+
 .hero {
   min-height: 100vh;
   display: flex;
@@ -9,9 +13,16 @@
   overflow: hidden;
 }
 
-.hero::before {
+/* Decorative background pulses */
+.hero::before,
+.hero::after {
   content: "";
   position: absolute;
+  border-radius: 50%;
+  animation: pulse 5s ease-in-out infinite;
+}
+
+.hero::before {
   width: 500px;
   height: 500px;
   background: radial-gradient(
@@ -21,13 +32,10 @@
   );
   top: -100px;
   right: -100px;
-  border-radius: 50%;
-  animation: pulse 4s ease-in-out infinite;
+  animation-duration: 4s;
 }
 
 .hero::after {
-  content: "";
-  position: absolute;
   width: 400px;
   height: 400px;
   background: radial-gradient(
@@ -37,8 +45,6 @@
   );
   bottom: -50px;
   left: -50px;
-  border-radius: 50%;
-  animation: pulse 5s ease-in-out infinite;
 }
 
 @keyframes pulse {
@@ -53,77 +59,117 @@
   }
 }
 
+/* -------------------- */
+/* HERO CONTAINER       */
+/* -------------------- */
+
 .hero-container {
   max-width: 900px;
   text-align: center;
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.hero-badges {
-  display: flex;
-  gap: 12px;
+/* -------------------- */
+/* BADGES               */
+/* -------------------- */
+
+/* replace .badge with .hero-badge to avoid collisions */
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 32px;
+  padding: 8px 18px;
+  border-radius: 8px;
+  background: #f0f2f5;
+  color: #222;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  white-space: nowrap;
+}
+
+.hero-badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .badge {
-  background: var(--white);
-  padding: 8px 16px;
-  border-radius: 24px;
-  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 18px;
+  border-radius: 8px;
+  background: #f0f2f5;
+  color: #222;
   font-weight: 500;
-  color: var(--electric-blue);
-  box-shadow: 0 2px 8px rgba(0, 102, 255, 0.1);
-  transition: transform 0.2s ease;
+  font-size: 0.95rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  white-space: nowrap;
 }
 
 .badge:hover {
   transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* -------------------- */
+/* HERO TEXT            */
+/* -------------------- */
 
 .hero-title {
   font-size: 64px;
   font-weight: 800;
   line-height: 1.2;
-  color: var(--dark-gray);
+  color: #111;
   margin-bottom: 24px;
   letter-spacing: -0.02em;
 }
 
 .hero-title .highlight {
-  background: var(--gradient-primary);
+  background: linear-gradient(90deg, #007bff, #00c6ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .hero-subtitle {
   font-size: 20px;
   line-height: 1.6;
-  color: var(--medium-gray);
+  color: #555;
   margin-bottom: 40px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* -------------------- */
+/* CTA BUTTON           */
+/* -------------------- */
+
 .cta-button {
-  background: var(--gradient-primary);
-  color: var(--white);
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  color: #fff;
   padding: 18px 48px;
   border-radius: 12px;
   font-size: 18px;
   font-weight: 600;
   transition: all 0.3s ease;
   box-shadow: 0 4px 16px rgba(0, 102, 255, 0.3);
+  border: none;
+  cursor: pointer;
 }
 
 .cta-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 24px rgba(0, 102, 255, 0.4);
 }
+
+/* -------------------- */
+/* RESPONSIVE STYLES    */
+/* -------------------- */
 
 @media (max-width: 768px) {
   .hero {
@@ -142,5 +188,9 @@
   .cta-button {
     padding: 16px 32px;
     font-size: 16px;
+  }
+
+  .hero-badges {
+    gap: 8px;
   }
 }
