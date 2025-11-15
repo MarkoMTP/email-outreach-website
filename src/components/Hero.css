@@ -1,20 +1,24 @@
 .hero {
-  min-height: 90vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #F8FEFF 0%, #F0F9FF 100%);
+  background: linear-gradient(135deg, #f8feff 0%, #f0f9ff 100%);
   padding: 80px 24px;
   position: relative;
   overflow: hidden;
 }
 
 .hero::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 500px;
   height: 500px;
-  background: radial-gradient(circle, rgba(0, 102, 255, 0.1) 0%, transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(0, 102, 255, 0.1) 0%,
+    transparent 70%
+  );
   top: -100px;
   right: -100px;
   border-radius: 50%;
@@ -22,11 +26,15 @@
 }
 
 .hero::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 400px;
   height: 400px;
-  background: radial-gradient(circle, rgba(0, 255, 135, 0.08) 0%, transparent 70%);
+  background: radial-gradient(
+    circle,
+    rgba(0, 255, 135, 0.08) 0%,
+    transparent 70%
+  );
   bottom: -50px;
   left: -50px;
   border-radius: 50%;
@@ -34,7 +42,8 @@
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
     opacity: 1;
   }

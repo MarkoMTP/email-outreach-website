@@ -49,13 +49,6 @@ const WhyItWorks = () => {
             </div>
           ))}
         </div>
-
-        <div className="quote-section">
-          <p className="quote-text">
-            We first used this system to fill our agency's pipeline. Now we use
-            it to fill yours.
-          </p>
-        </div>
       </div>
     </section>
   );

@@ -1,0 +1,103 @@
+.built-for {
+  background: radial-gradient(circle at top right, #eef2ff, #ffffff);
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.built-for__container {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.built-for__headline {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #111827;
+  margin-bottom: 16px;
+  line-height: 1.3;
+}
+
+.built-for__headline span {
+  color: #2563eb;
+}
+
+.built-for__subtext {
+  font-size: 1.2rem;
+  color: #374151;
+  margin-bottom: 40px;
+}
+
+.built-for__benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 48px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.built-for__benefits li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 1.1rem;
+  color: #1f2937;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.built-for__benefits li:last-child {
+  border-bottom: none;
+}
+
+.check {
+  color: #10b981;
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.built-for__guarantee {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 30px 0 40px;
+}
+
+.built-for__cta {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  color: white;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+}
+
+.built-for__cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
+}
+
+@media (max-width: 768px) {
+  .built-for__headline {
+    font-size: 2rem;
+  }
+
+  .built-for__benefits {
+    text-align: center;
+  }
+
+  .built-for__benefits li {
+    justify-content: center;
+    border: none;
+  }
+}

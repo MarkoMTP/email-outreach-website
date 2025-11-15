@@ -23,7 +23,7 @@ const Problem = () => {
   return (
     <section className="problem">
       <div className="problem-container">
-        <h2 className="problem-title">The typical B2B outreach nightmare</h2>
+        <h2 className="problem-title">The typical outreach nightmare</h2>
 
         <div className="problem-grid">
           {problems.map((problem, index) => (
@@ -32,6 +32,15 @@ const Problem = () => {
               <p className="problem-text">{problem.text}</p>
             </div>
           ))}
+        </div>
+
+        <div className="problem-transition">
+          <div className="transition-line"></div>
+          <p className="transition-text">
+            We turned all of that into a single automated engine that runs on
+            autopilot.
+          </p>
+          <div className="transition-line"></div>
         </div>
       </div>
     </section>

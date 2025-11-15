@@ -10,7 +10,7 @@ const CompetitiveAdvantage = () => {
     },
     {
       period: "Within 90 Days",
-      title: "You've booked 40-50 qualified discovery calls",
+      title: "You've booked 100+ qualified discovery calls",
       description:
         "closed your first clients from the system, and the ROI is already positive. Your pipeline is predictable.",
     },

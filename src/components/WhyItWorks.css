@@ -1,5 +1,5 @@
 .why-it-works {
-  padding: 120px 24px;
+  padding: 3rem 24px;
   background: linear-gradient(180deg, var(--light-gray) 0%, var(--white) 100%);
 }
 
@@ -32,7 +32,7 @@
 }
 
 .stat-number {
-  font-size: 64px;
+  font-size: 3rem;
   font-weight: 800;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
@@ -92,7 +92,7 @@
 }
 
 .quote-section {
-  background: linear-gradient(135deg, var(--electric-blue) 0%, #00D4FF 100%);
+  background: linear-gradient(135deg, var(--electric-blue) 0%, #00d4ff 100%);
   padding: 60px 48px;
   border-radius: 24px;
   position: relative;

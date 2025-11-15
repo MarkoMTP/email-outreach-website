@@ -18,15 +18,16 @@ const Hero = () => {
         </div>
 
         <h1 className="hero-title">
-          Never Chase Clients Again. Your Automated Email Engine Finds Them for
-          You.
+          Automated Cold‑Email Outreach System That Finds New Clients On
+          Autopilot
         </h1>
 
         <p className="hero-subtitle">
-          Email Outreach Engine™ finds, verifies, and contacts your ideal
-          prospects with personalized emails, manages all replies through an
-          intelligent dashboard, and filters the real opportunities for you — so
-          you only focus on closing deals.
+          For B2B companies who rely on outreach to fill their sales pipeline -
+          We find, verifiy, and contact your ideal prospects with personalized
+          emails, manage all replies through an intelligent dashboard, and
+          filter the real opportunities for you — so you only focus on closing
+          deals.
         </p>
 
         <button className="cta-button" onClick={handleCTAClick}>
