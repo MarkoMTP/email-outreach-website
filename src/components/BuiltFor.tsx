@@ -1,4 +1,3 @@
-import React from "react";
 import "./BuiltForSection.css";
 
 export default function BuiltForSection() {
