@@ -129,34 +129,16 @@ const MainForm = () => {
 
           <div className="form-row">
             <div className="form-group">
-              <label>
-                How many new clients would you like to acquire monthly?
-              </label>
+              <label>Which Plan Are You Interested In?</label>
               <select
                 name="goalClients"
                 value={formData.goalClients}
                 onChange={handleChange}
               >
                 <option value="">Select an option</option>
-                <option value="1-3">1–3 clients</option>
-                <option value="4-6">4–6 clients</option>
-                <option value="7-10">7–10 clients</option>
-                <option value="10+">10+ clients</option>
-              </select>
-            </div>
-
-            <div className="form-group">
-              <label>Monthly Marketing Budget (Approx.)</label>
-              <select
-                name="budget"
-                value={formData.budget}
-                onChange={handleChange}
-              >
-                <option value="">Select an option</option>
-                <option value="under1000">Under €1,000</option>
-                <option value="1000-3000">€1,000–€3,000</option>
-                <option value="3000-6000">€3,000–€6,000</option>
-                <option value="6000+">€6,000+</option>
+                <option value="starter">Growth Starter</option>
+                <option value="pro">Growth Pro</option>
+                <option value="partner">Growth Partner</option>
               </select>
             </div>
           </div>
