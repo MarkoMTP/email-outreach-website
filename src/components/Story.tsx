@@ -25,9 +25,9 @@ const caseStudies: Case[] = [
     summary:
       "Our internal prototype that evolved into the Email Outreach Engine™. Used to automate client acquisition and replace manual outreach entirely.",
     results: {
-      calls: "40–50 qualified calls/month",
+      calls: "20–30 qualified calls/month",
       value: "€10,000 average client value",
-      potential: "€400K–€500K in potential monthly pipeline",
+      potential: "€600K–€900K in potential monthly pipeline",
     },
   },
   {
@@ -39,7 +39,7 @@ const caseStudies: Case[] = [
     summary:
       "(Name withheld for client confidentiality) — A full-service marketing agency operating in multiple verticals. They needed scalable outreach across industries while maintaining personalization and high-quality targeting.",
     results: {
-      calls: "60–70 qualified calls/month",
+      calls: "35–45 qualified calls/month",
       value: "€9,000 average deal value",
       potential: "€1M–€1.3M in potential monthly pipeline",
     },
@@ -53,7 +53,7 @@ const caseStudies: Case[] = [
     summary:
       "(Name withheld for client confidentiality) — A European consulting firm seeking a predictable, high-value lead flow. We built a multi-domain outreach system targeting senior decision-makers across finance, HR, and operations.",
     results: {
-      calls: "40–50 qualified calls/month",
+      calls: "30–35 qualified calls/month",
       value: "€12,000 average deal value",
       potential: "€840K–€1.1M in potential monthly pipeline",
     },
@@ -69,7 +69,7 @@ const caseStudies: Case[] = [
     results: {
       calls: "25–35 discovery calls/month",
       value: "€20,000 average project value",
-      potential: "€500K–€700K in potential monthly pipeline",
+      potential: "€1M–€1.5M in potential monthly pipeline",
     },
   },
   {
@@ -83,7 +83,7 @@ const caseStudies: Case[] = [
     results: {
       calls: "30–45 qualified calls/month",
       value: "€6,000 average placement fee",
-      potential: "€180K–€270K in potential monthly pipeline",
+      potential: "€380K–€570K in potential monthly pipeline",
     },
   },
 ];

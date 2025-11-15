@@ -3,35 +3,37 @@ import "./CompetitiveAdvantage.css";
 const CompetitiveAdvantage = () => {
   const timeline = [
     {
-      period: "Within 30 Days",
-      title: "Your automated system is live",
+      period: "Week 1–4",
+      title: "Your private outreach system goes live",
       description:
-        "sending personalised emails to hundreds of ideal prospects weekly. The first qualified leads appear in your inbox.",
+        "The system starts sourcing and messaging qualified prospects every single day — just like a full-time SDR team would, but without the salary or downtime. Your first interested leads appear within weeks.",
     },
     {
-      period: "Within 90 Days",
-      title: "You've booked 100+ qualified discovery calls",
+      period: "Month 2–3",
+      title: "Your calendar starts filling with booked calls",
       description:
-        "closed your first clients from the system, and the ROI is already positive. Your pipeline is predictable.",
+        "The campaigns run on autopilot, constantly refining subject lines and follow-ups. You’re handling real conversations — not chasing prospects — while the system continues outreach in the background.",
     },
     {
-      period: "Within 6 Months",
-      title: "The system is your primary lead source",
+      period: "Month 4–6",
+      title: "Your outreach team is now 100% automated",
       description:
-        "generating consistent opportunities whilst you focus on delivery and growth. Revenue forecasting becomes accurate.",
+        "Lead flow becomes predictable. Every day, verified prospects are contacted, replies are sorted, and new calls are booked — all without hiring or managing a single SDR.",
     },
   ];
 
   return (
     <section className="competitive-advantage">
       <div className="advantage-container">
-        <h2 className="section-title">Your Competitive Advantage Awaits</h2>
+        <h2 className="section-title">
+          Your Automated SDR Team — Working 24/7
+        </h2>
         <p className="section-subtitle">
-          The gap between agencies using automated client acquisition and those
-          still relying on manual prospecting is widening every month. Early
-          adopters are securing more clients, growing faster, and building more
-          valuable businesses—whilst their competitors remain stuck in the
-          time-consuming grind of manual outreach.
+          Think of Email Outreach Engine™ as your own private sales development
+          team — sourcing leads, writing messages, sending personalized emails,
+          and booking calls automatically. It runs quietly in the background,
+          generating qualified opportunities every week without any manual
+          effort.
         </p>
 
         <div className="timeline">
@@ -49,28 +51,25 @@ const CompetitiveAdvantage = () => {
 
         <div className="transformation-proof">
           <p>
-            The transformation is real, repeatable, and proven. Agencies across
-            the World are implementing these systems and experiencing dramatic
-            shifts in their growth trajectories.{" "}
+            Businesses that implement this system replace the cost and
+            complexity of traditional outreach teams with a lean, data-driven
+            automation engine.
             <strong>
-              The question isn't whether automation works—the data proves it
-              does. The question is whether you'll be an early adopter who gains
-              competitive advantage, or whether you'll watch from the sidelines
-              as others capture the market opportunity.
+              Instead of hiring SDRs, training them, and managing turnover — you
+              launch a digital version that works nonstop, scales instantly, and
+              never misses a follow-up.
             </strong>
           </p>
         </div>
 
         <div className="urgency-message">
           <p>
-            Every day you delay is another day of manual prospecting, another
-            week of inconsistent pipeline, another month where growth depends on
-            your personal effort rather than systematic infrastructure.{" "}
+            Every week you wait is another week of manual outreach, inconsistent
+            pipeline, and missed opportunities.{" "}
             <strong>
-              The agencies implementing automated acquisition today will be the
-              market leaders of tomorrow—because they're building scalable,
-              predictable, data-driven growth engines whilst others remain
-              trapped in outdated manual methods.
+              Early adopters are already using automation to generate consistent
+              client flow — the question is whether you’ll build your own system
+              or keep relying on people and spreadsheets.
             </strong>
           </p>
         </div>
@@ -78,8 +77,9 @@ const CompetitiveAdvantage = () => {
         <div className="availability-note">
           <div className="availability-icon">⚠️</div>
           <p className="availability-text">
-            <strong>Limited Availability:</strong> We only work with 5-8 new
-            clients per quarter to ensure exceptional implementation quality.
+            <strong>Limited Availability:</strong> We only onboard a few new
+            clients each quarter to ensure proper setup, testing, and long-term
+            results.
           </p>
         </div>
       </div>
