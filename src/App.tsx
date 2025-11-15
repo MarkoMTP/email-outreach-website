@@ -12,21 +12,19 @@ import MainForm from "./components/MainForm.js";
 import "./App.css";
 import CompetitiveAdvantage from "./components/CompetitiveAdv.js";
 import ThreeComponents from "./components/Threecompontents.js";
-import BuiltForSection from "./components/BuiltFor.js";
 
 function App() {
   return (
     <div className="app">
       <Hero />
-      <BuiltForSection />
       <Problem />
       <ThreeComponents />
-      <SmartInbox />
-      <WhyItWorks />
       <WhoItsFor />
+      <WhyItWorks />
+      <CompetitiveAdvantage></CompetitiveAdvantage>
+      <SmartInbox />
       <Story />
       <Pricing />
-      <CompetitiveAdvantage></CompetitiveAdvantage>
       <FAQ />
       <FinalCTA />
       <MainForm />

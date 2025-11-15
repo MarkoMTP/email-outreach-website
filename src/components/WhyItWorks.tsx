@@ -3,7 +3,7 @@ import "./WhyItWorks.css";
 const WhyItWorks = () => {
   const stats = [
     {
-      number: "5,000+",
+      number: "10,000+",
       label: "Verified leads contacted monthly",
     },
     {
@@ -11,7 +11,7 @@ const WhyItWorks = () => {
       label: "Average open rate",
     },
     {
-      number: "20%",
+      number: "25%",
       label: "Reply rate achieved",
     },
     {

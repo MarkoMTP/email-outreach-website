@@ -61,7 +61,12 @@
 .transition-line {
   flex: 1;
   height: 2px;
-  background: linear-gradient(to right, transparent, var(--electric-blue), transparent);
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--electric-blue),
+    transparent
+  );
 }
 
 .transition-text {
