@@ -14,7 +14,6 @@ interface Case {
     potential: string;
   };
 }
-
 const caseStudies: Case[] = [
   {
     id: 1,
@@ -23,11 +22,11 @@ const caseStudies: Case[] = [
     headcount: "50–60 employees",
     service: "Full Automation Setup + Multi-Domain Outreach",
     summary:
-      "(Name withheld for client confidentiality) — A European consulting firm seeking a predictable, high-value lead flow. We built a multi-domain outreach system targeting senior decision-makers across finance, HR, and operations.",
+      "(Name withheld for confidentiality) — A European consulting firm needing predictable high-quality lead flow. We built a multi-domain outreach engine targeting senior decision-makers across finance, HR, and operations.",
     results: {
       calls: "30–35 qualified calls/month",
-      value: "€12,000 average deal value",
-      potential: "€840K–€1.1M in potential monthly pipeline",
+      value: "€25,000 average project value",
+      potential: "€75K–€130K/mo in realistic pipeline (10–15% close rate)",
     },
   },
   {
@@ -37,11 +36,11 @@ const caseStudies: Case[] = [
     headcount: "100+ consultants",
     service: "AI-Powered Outreach & Predictive Targeting System",
     summary:
-      "A U.S.-based consulting group focusing on corporate strategy and M&A advisory. We developed an AI-powered outreach and targeting engine that identified C-level prospects by deal intent, boosting conversion speed and ROI.",
+      "A U.S. consulting group in corporate strategy and M&A advisory. We built an AI engine that identified C-suite prospects by deal intent, accelerating pipeline velocity and increasing ROI.",
     results: {
       calls: "40–50 strategy calls/month",
-      value: "$15,000 average engagement value",
-      potential: "$1.2M–$1.8M in potential monthly pipeline",
+      value: "$30,000 average project value",
+      potential: "$120K–$225K/mo in realistic pipeline",
     },
   },
   {
@@ -51,11 +50,11 @@ const caseStudies: Case[] = [
     headcount: "10–15 employees",
     service: "Automated B2B Lead Generation System",
     summary:
-      "Our internal prototype that evolved into the Email Outreach Engine™. Used to automate client acquisition and replace manual outreach entirely.",
+      "Our internal prototype that later evolved into the Email Outreach Engine™ — built to automate client acquisition and eliminate manual outreach.",
     results: {
       calls: "20–30 qualified calls/month",
-      value: "€10,000 average client value",
-      potential: "€600K–€900K in potential monthly pipeline",
+      value: "€12,000 average project value",
+      potential: "€24K–€54K/mo in realistic pipeline",
     },
   },
   {
@@ -65,11 +64,11 @@ const caseStudies: Case[] = [
     headcount: "80–100 employees",
     service: "Multi-Niche Outreach Automation + AI Lead Scoring",
     summary:
-      "(Name withheld for client confidentiality) — A full-service marketing agency operating in multiple verticals. They needed scalable outreach across industries while maintaining personalization and high-quality targeting.",
+      "(Name withheld for confidentiality) — A multi-vertical performance marketing agency requiring scalable outreach without compromising personalization or targeting quality.",
     results: {
       calls: "35–45 qualified calls/month",
-      value: "€9,000 average deal value",
-      potential: "€1M–€1.3M in potential monthly pipeline",
+      value: "€15,000 average project value",
+      potential: "€52K–€100K/mo in realistic pipeline",
     },
   },
   {
@@ -79,11 +78,11 @@ const caseStudies: Case[] = [
     headcount: "30–40 employees",
     service: "Automated Outbound & Lead Qualification System",
     summary:
-      "(Name withheld for client confidentiality) — A European IT services company that relied heavily on referrals. We implemented automated targeting and lead qualification, improving predictability and reducing cost per lead by 55%.",
+      "A European IT services provider previously relying on referrals. We deployed automated targeting + qualification, increasing predictability and reducing CPL by 55%.",
     results: {
       calls: "25–35 discovery calls/month",
-      value: "€20,000 average project value",
-      potential: "€1M–€1.5M in potential monthly pipeline",
+      value: "€40,000 average project value",
+      potential: "€100K–€210K/mo in realistic pipeline",
     },
   },
   {
@@ -93,11 +92,11 @@ const caseStudies: Case[] = [
     headcount: "40–50 employees",
     service: "Automated Client & Candidate Outreach",
     summary:
-      "(Name withheld for client confidentiality) — A recruitment firm using the system to target both hiring managers and high-value candidates. Their consultants now focus only on warm conversations — not manual sourcing.",
+      "A recruitment agency using automated outreach for both hiring managers and high-value candidates. Consultants now spend their time exclusively on warm conversations.",
     results: {
       calls: "30–45 qualified calls/month",
-      value: "€6,000 average placement fee",
-      potential: "€380K–€570K in potential monthly pipeline",
+      value: "€8,500 average project value",
+      potential: "€25K–€57K/mo in realistic pipeline",
     },
   },
 ];
