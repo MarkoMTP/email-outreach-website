@@ -3,8 +3,8 @@
 .case-carousel {
   position: relative;
   padding: 96px 20px;
-  background: #ffffff; /* full white */
-  color: #1a1a1a; /* clean dark text */
+  background: #ffffff;
+  color: #1a1a1a;
 }
 
 .carousel-container {
@@ -40,13 +40,11 @@
   z-index: 3;
 }
 
-/* remove all previous overlays */
 .case-card::before,
 .case-card::after {
   display: none !important;
 }
 
-/* ensure all inner content is visible above any leftovers */
 .case-card * {
   position: relative;
   z-index: 4;
@@ -119,7 +117,7 @@
   margin: 10px 0 32px;
 }
 
-/* ========== BOTTOM ROW: Results + Mini Chart ========== */
+/* ========== BOTTOM ROW ========== */
 .case-bottom-row {
   display: grid;
   grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
@@ -127,14 +125,7 @@
   margin-top: 24px;
 }
 
-@media (max-width: 820px) {
-  .case-bottom-row {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* ========== RESULT ITEMS ========== */
-
 .case-results {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -185,15 +176,16 @@
 }
 
 /* ========== MINI CHART ========== */
-
 .case-mini-chart {
   background: #f9fafb;
   border: 1px solid #e5e7eb;
   border-radius: 14px;
-  padding: 18px;
+  padding: 18px 22px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 18px;
+  max-height: 200px;
 }
 
 .chart-label {
@@ -235,8 +227,7 @@
   margin-top: 10px;
 }
 
-/* CONTROLS */
-
+/* ========== CONTROLS ========== */
 .carousel-controls {
   margin-top: 42px;
   display: flex;
@@ -274,39 +265,112 @@
   text-align: center;
 }
 
-/* MOBILE */
-@media (max-width: 480px) {
-  .carousel-title {
-    font-size: 2rem;
+/* ========== RESPONSIVE DESIGN ========== */
+
+@media (max-width: 1024px) {
+  .case-carousel {
+    padding: 80px 24px;
   }
-  .carousel-subtitle {
-    font-size: 1rem;
+
+  .case-card {
+    padding: 36px 26px;
+  }
+
+  .carousel-title {
+    font-size: 2.2rem;
   }
 }
 
-/* Make calls/month metric stand out */
+@media (max-width: 820px) {
+  .case-bottom-row {
+    grid-template-columns: 1fr;
+  }
+
+  .case-meta {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .carousel-title {
+    font-size: 1.9rem;
+    text-align: center;
+  }
+
+  .carousel-subtitle {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .case-card {
+    padding: 26px 20px;
+    border-radius: 12px;
+  }
+
+  .case-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .case-header-pill {
+    align-self: flex-start;
+    font-size: 0.8rem;
+    padding: 4px 10px;
+  }
+
+  .case-summary {
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  .case-results {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel-controls {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .carousel-controls button {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .carousel-index {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .carousel-title {
+    font-size: 1.6rem;
+  }
+
+  .carousel-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .case-summary {
+    font-size: 0.9rem;
+  }
+
+  .result-value {
+    font-size: 0.95rem;
+  }
+}
+
+/* ========== HIGHLIGHT STYLING ========== */
 .result-item.calls-highlight .result-value {
   font-size: 1.6rem !important;
   font-weight: 900 !important;
   background: linear-gradient(90deg, #2563eb, #3b82f6);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .result-item.calls-highlight {
   background: #f0f7ff;
   border-color: #bfdbfe;
-}
-
-/* ============= MINI CHART (RIGHT SIDE) ============= */
-
-.case-mini-chart {
-  background: #f9fafb;
-  border: 1px solid #e5e7eb;
-  border-radius: 14px;
-  padding: 20px 22px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 18px;
-  max-height: 200px;
 }
