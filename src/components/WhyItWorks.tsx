@@ -27,6 +27,13 @@ const WhyItWorks = () => {
     "Proven system with measurable results",
   ];
 
+  const scrollToFeatures = () => {
+    const el = document.getElementById("finalCTA");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="why-it-works">
       <div className="why-it-works-container">
@@ -50,6 +57,9 @@ const WhyItWorks = () => {
           ))}
         </div>
       </div>
+      <button onClick={scrollToFeatures} className="cta-button-large">
+        Contact us
+      </button>
     </section>
   );
 };

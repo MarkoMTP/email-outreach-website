@@ -23,7 +23,7 @@ const Problem = () => {
   return (
     <section className="problem">
       <div className="problem-container">
-        <h2 className="problem-title">The typical outreach nightmare</h2>
+        <h2 className="problem-title">Why Manual Outreach Fails</h2>
 
         <div className="problem-grid">
           {problems.map((problem, index) => (

@@ -1,6 +1,13 @@
 import "./Pricing.css";
 
 const Pricing = () => {
+  const scrollToFeatures = () => {
+    const el = document.getElementById("finalCTA");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="pricing">
       <div className="pricing-container">
@@ -123,6 +130,9 @@ const Pricing = () => {
           </p>
         </div>
       </div>
+      <button onClick={scrollToFeatures} className="cta-button-large">
+        Schedule a free consultation
+      </button>
     </section>
   );
 };

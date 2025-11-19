@@ -6,19 +6,19 @@ const ThreeComponents = () => {
       number: "01",
       title: "Lead Sourcing & Verification",
       description:
-        "AI finds and verifies your ideal prospects daily — no scraping, guessing, or manual searching.",
+        "We source verified prospects that match your ideal client profile — daily and automatically.",
     },
     {
       number: "02",
       title: "Personalized Outreach",
       description:
-        "Each email is tailored with real data and context, written to sound human — not automated.",
+        "Every message is personalized with real data to sound human, not automated.",
     },
     {
       number: "03",
       title: "Smart Reply Management",
       description:
-        "AI sorts every reply instantly — flags warm leads, follows up automatically, and keeps your inbox clean.",
+        "Replies are sorted automatically. Warm leads are flagged instantly. You only jump in when there’s real interest.",
     },
   ];
 
@@ -35,7 +35,7 @@ const ThreeComponents = () => {
       <div className="components-container">
         <h2 className="section-title">How It Works</h2>
         <p className="section-subtitle">
-          Three components. One fully automated client engine.
+          A fully automated client-acquisition system in 3 steps.
         </p>
 
         <div className="components-grid">

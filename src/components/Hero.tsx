@@ -58,17 +58,14 @@ const Hero: React.FC = () => {
 
         {/* TITLE */}
         <h1 className="hero-title">
-          Never Chase Clients Again. Your Automated Email Engine Finds Them for
-          You.
+          Automated Lead Sourcing and Outreach That Actually Works
         </h1>
 
         {/* SUBTITLE (fixed typo: verify) */}
         <p className="hero-subtitle">
-          For B2B companies who rely on outreach to fill their sales pipeline —
-          we find, verify, and contact your ideal prospects with personalized
-          emails, manage all replies through an intelligent dashboard, and
-          filter the real opportunities for you — so you only focus on closing
-          deals.
+          Email Outreach Engine™ sources verified prospects, sends personalized
+          emails, follows up automatically, and delivers warm replies straight
+          to your inbox — so you focus only on closing.
         </p>
 
         {/* CTA */}

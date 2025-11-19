@@ -9,7 +9,7 @@ const FinalCTA = () => {
   };
 
   return (
-    <section className="final-cta">
+    <section id="finalCTA" className="final-cta">
       <div className="final-cta-container">
         <div className="cta-content">
           <h2 className="cta-title">Automate your client acquisition.</h2>

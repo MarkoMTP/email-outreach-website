@@ -3,6 +3,12 @@ import "./WhoItsFor.css";
 const WhoItsFor = () => {
   const audiences = [
     {
+      icon: "📊",
+      title: "Consulting Firms",
+      description:
+        "Attract high-value decision makers without manual prospecting.",
+    },
+    {
       icon: "🎯",
       title: "B2B Agencies",
       description:
@@ -11,8 +17,7 @@ const WhoItsFor = () => {
     {
       icon: "📢",
       title: "Marketing Agencies",
-      description:
-        "Generate a steady stream of qualified leads without wasting time on manual prospecting.",
+      description: "Fill your pipeline automatically without hiring SDRs.",
     },
     {
       icon: "💻",
@@ -26,17 +31,11 @@ const WhoItsFor = () => {
       description:
         "Fill your pipeline with verified decision-makers and automate first contact entirely.",
     },
-    {
-      icon: "📊",
-      title: "Consultants & Service Providers",
-      description:
-        "Focus on closing deals while the system finds and warms up your next clients for you.",
-    },
+
     {
       icon: "✨",
       title: "And Many Others",
-      description:
-        "If you sell B2B and rely on calls or demos, this engine keeps your calendar full—automatically.",
+      description: "If you sell B2B, the engine fills your calendar.",
     },
   ];
 
