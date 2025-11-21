@@ -127,22 +127,6 @@ const MainForm = () => {
             </div>
           </div>
 
-          <div className="form-row">
-            <div className="form-group">
-              <label>Which Plan Are You Interested In?</label>
-              <select
-                name="goalClients"
-                value={formData.goalClients}
-                onChange={handleChange}
-              >
-                <option value="">Select an option</option>
-                <option value="starter">Growth Starter</option>
-                <option value="pro">Growth Pro</option>
-                <option value="partner">Growth Partner</option>
-              </select>
-            </div>
-          </div>
-
           <div className="form-group full">
             <label>Tell us about your business or goals</label>
             <textarea
