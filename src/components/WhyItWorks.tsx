@@ -3,7 +3,7 @@ import "./WhyItWorks.css";
 const WhyItWorks = () => {
   const stats = [
     {
-      number: "10,000+",
+      number: "100,000+",
       label: "Verified leads contacted monthly",
     },
     {

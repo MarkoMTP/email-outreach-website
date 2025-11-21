@@ -31,7 +31,7 @@ const Pricing = () => {
 
           <div className="monthly-price">
             <span className="currency">€</span>
-            <span className="amount">800</span>
+            <span className="amount">1000</span>
             <span className="period">/month</span>
           </div>
 
@@ -39,7 +39,7 @@ const Pricing = () => {
             <div className="include-title">Includes everything you need:</div>
             <ul className="include-list">
               <li>Automated LinkedIn lead scraping</li>
-              <li>AI-personalized cold emails & follow-ups</li>
+              <li>Personalized cold emails & follow-ups</li>
               <li>A/B testing & campaign optimization</li>
               <li>Automated reply sorting & CRM sync</li>
               <li>Deliverability setup & monitoring</li>
