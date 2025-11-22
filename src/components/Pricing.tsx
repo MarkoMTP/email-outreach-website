@@ -24,14 +24,14 @@ const Pricing = () => {
             <div className="price-label">Full System Setup</div>
             <div className="price-amount">
               <span className="currency">€</span>
-              <span className="amount">2,500</span>
+              <span className="amount">1,000</span>
             </div>
             <div className="period">One-Time Setup</div>
           </div>
 
           <div className="monthly-price">
             <span className="currency">€</span>
-            <span className="amount">1000</span>
+            <span className="amount">500</span>
             <span className="period">/month</span>
           </div>
 
