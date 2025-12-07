@@ -1,65 +1,62 @@
 import "./Pricing.css";
 
+const FEATURES = [
+  "Automated LinkedIn lead scraping",
+  "AI-personalized outreach & follow-ups",
+  "A/B testing & campaign optimization",
+  "Smart reply classification & CRM syncing",
+  "Deliverability setup & domain warm-up",
+  "Weekly performance reports & strategy guidance",
+];
+
 const Pricing = () => {
-  const scrollToFeatures = () => {
+  const scrollToCTA = () => {
     const el = document.getElementById("finalCTA");
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
-    }
+    if (el) el.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
-    <section className="pricing">
+    <section className="pricing-section">
       <div className="pricing-container">
-        <h2 className="section-title">Simple, Transparent Pricing</h2>
-        <p className="section-subtitle">
-          One powerful system. One simple price. The Email Outreach Engine™
-          includes automated lead scraping, AI-personalized email creation, A/B
-          testing, and smart reply sorting — everything you need to consistently
-          book qualified calls.
+        <h2 className="pricing-title">Simple, Transparent Pricing</h2>
+        <p className="pricing-subtitle">
+          Get a fully automated outreach engine that books qualified calls for
+          you, without hiring a team or writing a single email.
         </p>
 
-        <div className="pricing-card single">
+        <div className="pricing-card">
           <div className="price-header">
-            <div className="price-label">Full System Setup</div>
-            <div className="price-amount">
+            <h3 className="plan-name">Email Outreach Engine™</h3>
+
+            <div className="price-line">
               <span className="currency">€</span>
-              <span className="amount">1,200</span>
+              <span className="amount">700</span>
+              <span className="per">/ month</span>
             </div>
-            <div className="period">One-Time Setup</div>
+
+            <div className="performance-fee">
+              + 5%–15% performance fee per closed client
+            </div>
           </div>
 
-          <div className="monthly-price">
-            <span className="currency">€</span>
-            <span className="amount">500</span>
-            <span className="period">/month</span>
-          </div>
+          <div className="divider" />
 
-          <div className="price-includes">
-            <div className="include-title">Includes everything you need:</div>
-            <ul className="include-list">
-              <li>Automated LinkedIn lead scraping</li>
-              <li>Personalized cold emails & follow-ups</li>
-              <li>A/B testing & campaign optimization</li>
-              <li>Automated reply sorting & CRM sync</li>
-              <li>Deliverability setup & monitoring</li>
-              <li>Weekly performance reports & strategy updates</li>
-            </ul>
-          </div>
-        </div>
+          <ul className="feature-list">
+            {FEATURES.map((f) => (
+              <li key={f}>{f}</li>
+            ))}
+          </ul>
 
-        <div className="pricing-note">
-          <div className="note-icon">🔒</div>
-          <p>
-            <strong>Important:</strong> You retain full ownership of all data,
-            accounts, and domains. Everything stays under your control.
+          <button className="pricing-cta" onClick={scrollToCTA}>
+            Book a Free Consultation
+          </button>
+
+          <p className="guarantee">
+            🔒 No long-term contracts. You retain full ownership of all accounts
+            & data.
           </p>
         </div>
       </div>
-
-      <button onClick={scrollToFeatures} className="cta-button-large">
-        Schedule a free consultation
-      </button>
     </section>
   );
 };

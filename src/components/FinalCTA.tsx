@@ -3,7 +3,7 @@ import "./FinalCTA.css";
 const FinalCTA = () => {
   const handleCTAClick = () => {
     window.open(
-      "https://calendly.com/contact-altafrequenzamarketing/email-outreach-system-meeting",
+      "https://calendly.com/contact-altafrequenzamarketing/email-outreach-system",
       "_blank"
     );
   };
